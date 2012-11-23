@@ -1,0 +1,27 @@
+windows 8 features
+
+-share feature to both share migrii idea with apps, and to share other apps content on migrii
+-dashboard of projects/ideas
+-user location
+-use search function
+-seamntic zoom on keywords or tags or location
+
+-animations
+
+
+migrii features
+
+dashboard
+create
+
+
+
+
+
+sprint 1
+fichier data - A DONE
+themeing - F
+
+sprint 2
+-share
+-update de tile
