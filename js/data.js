@@ -13,6 +13,7 @@
         list.push(item);
     });
 
+
     WinJS.Namespace.define("Data", {
         items: groupedItems,
         groups: groupedItems.groups,
