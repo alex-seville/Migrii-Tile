@@ -12,12 +12,41 @@
             element.querySelector("article .item-image").src = item.backgroundImage;
             element.querySelector("article .item-image").src = "/images/makewebnotwar.jpg";
             element.querySelector("article .item-image").alt = item.subtitle;
-            element.querySelector("article .item-content").innerHTML = item.content;
+            
 
             element.querySelector("article .item-owner").innerHTML = '<p><img src="/images/profile.jpg" alt="" /></p>';
 
             
+            
+            element.querySelector("article .item-content").textContent = item.description;
             element.querySelector(".content").focus();
+
+            var dataTransferManager = Windows.ApplicationModel.DataTransfer.DataTransferManager.getForCurrentView();
+            dataTransferManager.addEventListener("datarequested", dataRequested);
+        },
+        unload: function () {
+            var dataTransferManager = Windows.ApplicationModel.DataTransfer.DataTransferManager.getForCurrentView();
+            dataTransferManager.removeEventListener("datarequested", dataRequested);
         }
     });
+
+    function dataRequested(e) {
+        var request = e.request;
+
+        request.data.properties.title = document.getElementById("title").innerText;
+
+        request.data.properties.description = document.getElementById("description").innerText;
+    
+        var url = "http://www.migrii.com";
+        try {
+            request.data.properties.setUri(new Windows.Foundation.Uri(url));
+            WinJS.log && WinJS.log("", "sample", "error");
+        } catch (ex) {
+            WinJS.log && WinJS.log("Exception occured: the uri provided " + url + " is not well formatted.", "sample", "error");
+        }
+            
+    }
+
+    
+
 })();
