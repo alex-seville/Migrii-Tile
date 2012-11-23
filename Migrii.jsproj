@@ -77,9 +77,6 @@
     <Content Include="pages\groupedItems\groupedItems.html" />
     <Content Include="pages\groupedItems\groupedItems.js" />
     <Content Include="default.html" />
-    <Content Include="share\share.css" />
-    <Content Include="share\share.html" />
-    <Content Include="share\share.js" />
     <None Include="Migrii_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
