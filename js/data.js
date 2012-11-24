@@ -109,6 +109,7 @@
             { group: sampleGroups[2], title: "Magazine cover idea", subtitle: "Item Subtitle: 2", description: itemDescription, content: itemContent, backgroundImage: mediumGray },
             { group: sampleGroups[2], title: "Taco-wrapped-pizza Franchise", subtitle: "Item Subtitle: 3", description: itemDescription, content: itemContent, backgroundImage: lightGray },
 
+           
 
         ];
 

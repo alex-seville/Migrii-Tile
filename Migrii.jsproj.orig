@@ -54,7 +54,10 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="css\default.css" />
+<<<<<<< HEAD
     <Content Include="css\Questrial-Regular.ttf" />
+=======
+>>>>>>> Added share to item detail
     <Content Include="images\logo.png" />
     <Content Include="images\m.jpg" />
     <Content Include="images\makewebnotwar.jpg" />
@@ -64,13 +67,9 @@
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />
     <Content Include="images\storelogo.png" />
-    <Content Include="js\Appbar.js" />
     <Content Include="js\data.js" />
     <Content Include="js\default.js" />
     <Content Include="js\navigator.js" />
-    <Content Include="pages\Create\pagecontrol.css" />
-    <Content Include="pages\Create\pagecontrol.html" />
-    <Content Include="pages\Create\pagecontrol.js" />
     <Content Include="pages\itemDetail\itemDetail.css" />
     <Content Include="pages\itemDetail\itemDetail.html" />
     <Content Include="pages\itemDetail\itemDetail.js" />
@@ -81,6 +80,9 @@
     <Content Include="pages\groupedItems\groupedItems.html" />
     <Content Include="pages\groupedItems\groupedItems.js" />
     <Content Include="default.html" />
+    <Content Include="share\share.css" />
+    <Content Include="share\share.html" />
+    <Content Include="share\share.js" />
     <None Include="Migrii_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
