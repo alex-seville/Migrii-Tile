@@ -21,7 +21,9 @@
     // Command button functions
     function doClickAdd() {
         WinJS.log && WinJS.log("Add button pressed");
-        WinJS.Navigation.navigate("/pages/Create/pagecontrol.html");
+        if (!document.getElementById("createpage")) {
+            WinJS.Navigation.navigate("/pages/Create/pagecontrol.html");
+        }
     }
 
     

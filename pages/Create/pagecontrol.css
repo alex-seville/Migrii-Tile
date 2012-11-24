@@ -1,3 +1,17 @@
 ﻿.pagecontrol p {
     margin-left: 120px;
 }
+
+.pagecontrol section[role=main] {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+}
+/* This selector is used to prevent ui-dark/light.css from overwriting changes
+   to .win-surface. */
+.pagecontrol .addform {
+    margin-bottom: 35px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 128px;
+}
+
