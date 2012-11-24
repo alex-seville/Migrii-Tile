@@ -34,6 +34,9 @@
 
     function doClickCamera() {
         WinJS.log && WinJS.log("Camera button pressed");
+        if (!document.getElementById("message")) {
+            WinJS.Navigation.navigate("/pages/capture/capture.html");
+        }
     }
 
     WinJS.log = function (message) {
