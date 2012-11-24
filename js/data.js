@@ -17,11 +17,18 @@
     WinJS.Namespace.define("Data", {
         items: groupedItems,
         groups: groupedItems.groups,
+        addItem: addItem,
         getItemReference: getItemReference,
         getItemsFromGroup: getItemsFromGroup,
         resolveGroupReference: resolveGroupReference,
         resolveItemReference: resolveItemReference
     });
+
+    //add an item to the list
+    function addItem(item) {
+        list.push(item);
+        
+    }
 
     // Get a reference for an item, using the group key and item title as a
     // unique reference to the item that can be easily serialized.

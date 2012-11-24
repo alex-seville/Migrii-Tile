@@ -12,16 +12,16 @@
             document.getElementById("pic").addEventListener("click", takepicture);
             document.getElementById("create").addEventListener("click", function () {
                 var group = Data.items.getAt(0).group;
-                /*
-                Data.items.push({
+                var src= URL.createObjectURL(pic);
+                Data.addItem({
                     group: group,
-                    title: document.getElementById("caption"),
+                    title: document.getElementById("caption").value,
                     subtitle: "web",
                     description: "A picture says a thousand words...",
                     content: "",
-                    backgroundImage: pic
+                    backgroundImage:src 
                 });
-                */
+                
                 var messageDialog = new Windows.UI.Popups.MessageDialog("You successfully added an image to your idea");
 
                 messageDialog.showAsync();
@@ -47,6 +47,7 @@
         captureUI.captureFileAsync(Windows.Media.Capture.CameraCaptureUIMode.photo).then(function (capturedItem) {
             if (capturedItem) {
                 document.getElementById("message").innerHTML = "User captured a photo.";
+                pic = capturedItem;
 
 
                 document.getElementById('pictureUploaded').src = URL.createObjectURL(capturedItem);
