@@ -15,7 +15,7 @@
   </Resources>
   <Applications>
     <Application Id="App" StartPage="default.html">
-      <VisualElements DisplayName="Migrii" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Migrii" ForegroundText="light" BackgroundColor="#464646">
+      <VisualElements DisplayName="Migrii" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Migrii" ForegroundText="light" BackgroundColor="#FFFFFF">
         <DefaultTile ShowName="allLogos" />
         <SplashScreen Image="images\splashscreen.png" />
       </VisualElements>
