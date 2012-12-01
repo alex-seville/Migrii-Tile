@@ -2,7 +2,6 @@
     -ms-grid-row: 1;
     -ms-grid-row-span: 2;
 }
-
 /* This selector is used to prevent ui-dark/light.css from overwriting changes
    to .win-surface. */
 .groupdetailpage .itemslist .win-horizontal.win-viewport .win-surface {
@@ -36,6 +35,9 @@
             margin-top: 6px;
             max-height: 48pt;
             overflow: hidden;
+            color:#ED0C6E;
+            text-transform:uppercase;
+
         }
 
         .groupdetailpage .itemslist .win-groupheader .group-image {
@@ -58,6 +60,7 @@
         margin-right: 0;
         margin-left: 60px;
         padding: 7px;
+        background:#FACAD8;
     }
 
     .groupdetailpage .itemslist .item {
@@ -77,6 +80,7 @@
                 margin-top: 4px;
                 max-height: 20px;
                 overflow: hidden;
+                color:#ED0C6E;
             }
 
             .groupdetailpage .itemslist .item .item-info .item-subtitle {
@@ -86,6 +90,7 @@
             .groupdetailpage .itemslist .item .item-info .item-description {
                 max-height: 60px;
                 overflow: hidden;
+                color:#9C7E7D;
             }
 
 @media screen and (-ms-view-state: snapped) {

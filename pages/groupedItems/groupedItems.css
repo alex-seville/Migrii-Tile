@@ -45,6 +45,8 @@
 
         .groupeditemspage .groupeditemslist .group-header .group-title {
             display: inline-block;
+            text-transform:uppercase;
+            color:#ED0C6E;
         }
 
         .groupeditemspage .groupeditemslist .group-header .group-chevron {
@@ -80,6 +82,7 @@
                 -ms-grid-row: 1;
                 overflow: hidden;
                 width: 220px;
+               
             }
 
             .groupeditemspage .groupeditemslist .item .item-overlay .item-subtitle {
@@ -89,15 +92,13 @@
 
 @media screen and (-ms-view-state: fullscreen-landscape), screen and (-ms-view-state: fullscreen-portrait), screen and (-ms-view-state: filled) {
     .groupeditemspage .groupeditemslist .item .item-overlay {
-        background: rgba(0,0,0,0.65);
+        background: #ED0C6E;
     }
 
         .groupeditemspage .groupeditemslist .item .item-overlay .item-title {
-            color: rgba(255,255,255,0.87);
         }
 
         .groupeditemspage .groupeditemslist .item .item-overlay .item-subtitle {
-            color: rgba(255,255,255,0.6);
         }
 }
 

@@ -10,8 +10,13 @@
             element.querySelector("article .item-title").textContent = item.title;
             element.querySelector("article .item-subtitle").textContent = item.subtitle;
             element.querySelector("article .item-image").src = item.backgroundImage;
+            element.querySelector("article .item-image").src = "/images/makewebnotwar.jpg";
             element.querySelector("article .item-image").alt = item.subtitle;
             element.querySelector("article .item-content").innerHTML = item.content;
+
+            element.querySelector("article .item-owner").innerHTML = '<p><img src="/images/profile.jpg" alt="" /></p>';
+
+            
             element.querySelector(".content").focus();
         }
     });

@@ -1,6 +1,11 @@
-﻿#contenthost {
+﻿@font-face{font-family:'Questrial';src:url('Questrial-Regular.ttf') format('truetype');font-weight:400;font-style:normal}
+* {
+    font-family:'Questrial';
+}
+#contenthost {
     height: 100%;
     width: 100%;
+    background: #F27FA8;
 }
 
 .fragment {
@@ -17,6 +22,7 @@
         -ms-grid-columns: 120px 1fr;
         -ms-grid-rows: 1fr;
         display: -ms-grid;
+
     }
 
         .fragment header[role=banner] .win-backbutton {
@@ -27,11 +33,19 @@
         .fragment header[role=banner] .titlearea {
             -ms-grid-column: 2;
             margin-top: 37px;
+            color:#ED0C6E;
         }
 
             .fragment header[role=banner] .titlearea .pagetitle {
                 width: calc(100% - 20px);
+                color:#ED0C6E;
+                line-height:60px;
+                
             }
+                .fragment header[role=banner] .titlearea .pagetitle img {
+                    float:left;
+                    margin-right:10px;
+                }
 
     .fragment section[role=main] {
         -ms-grid-row: 2;
