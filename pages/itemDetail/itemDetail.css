@@ -23,7 +23,27 @@
         .itemdetailpage .content article header .item-title {
             margin-bottom: 19px;
         }
-
+        
+        .itemdetailpage .content article header .item-subtitle {
+            margin-bottom: 16px;
+            margin-top: 0;
+        }
+        .itemdetailpage .content article header .item-owner {
+            background:#9C7E7D;
+            float:right;
+            padding:10px;
+            color:#FFF;
+            text-shadow:1px 1px solid #2A2A2A;
+            height:80px;
+            width:200px;
+        }
+        .itemdetailpage .content article header .item-owner span {
+            display:block;
+            font-weight:bold;
+        }
+        .itemdetailpage .content article header .item-owner .picture {
+            float:right;
+        }
         .itemdetailpage .content article header .item-subtitle {
             margin-bottom: 16px;
             margin-top: 0;

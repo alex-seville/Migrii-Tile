@@ -8,39 +8,19 @@
             var item = options && options.item ? Data.resolveItemReference(options.item) : Data.items.getAt(0);
             element.querySelector(".titlearea .pagetitle").textContent = item.group.title;
             element.querySelector("article .item-title").textContent = item.title;
-            
+            element.querySelector("article .item-subtitle").textContent = item.subtitle;
+
             element.querySelector("article .item-image").src = item.backgroundImage;
             element.querySelector("article .item-image").src = "/images/makewebnotwar.jpg";
+
             element.querySelector("article .item-image").alt = item.subtitle;
-            
+            element.querySelector("article .item-content").innerHTML = item.content;
 
-            element.querySelector("article .item-owner").innerHTML = '<p><img src="/images/profile.jpg" alt="" /></p>';
+            element.querySelector("article .item-owner .picture").src = "/images/profile.jpg";
+            element.querySelector("article .item-owner span").innerHTML = "Florent<br>22 ans<br>Montreal,QC</span>";
 
             
-            
-            element.querySelector("article .item-content").textContent = item.description;
             element.querySelector(".content").focus();
-
-            var dataTransferManager = Windows.ApplicationModel.DataTransfer.DataTransferManager.getForCurrentView();
-            dataTransferManager.addEventListener("datarequested", dataRequested);
-        },
-        unload: function () {
-            var dataTransferManager = Windows.ApplicationModel.DataTransfer.DataTransferManager.getForCurrentView();
-            dataTransferManager.removeEventListener("datarequested", dataRequested);
         }
     });
-
-    function dataRequested(e) {
-        var request = e.request;
-
-        request.data.properties.title = document.getElementById("title").innerText;
-
-        request.data.properties.description = document.getElementById("description").innerText;
-
-        request.data.setText("Visit Migrii.com!");
-            
-    }
-
-    
-
 })();
