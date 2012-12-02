@@ -16,12 +16,12 @@
   <Applications>
     <Application Id="App" StartPage="default.html">
       <VisualElements DisplayName="Migrii" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Migrii" ForegroundText="light" BackgroundColor="#FFFFFF" ToastCapable="true">
-        <LockScreen Notification="badge" BadgeLogo="images\tile.png" />
-        <DefaultTile ShowName="allLogos" />
+        <LockScreen Notification="badgeAndTileText" BadgeLogo="images\tile.png" />
+        <DefaultTile ShowName="allLogos" WideLogo="images\widelogo.png" />
         <SplashScreen Image="images\splashscreen.png" />
       </VisualElements>
       <Extensions>
-        <Extension Category="windows.shareTarget" StartPage="share.html">
+        <Extension Category="windows.shareTarget" StartPage="share/shareTarget.html">
           <ShareTarget>
             <DataFormat>text</DataFormat>
             <DataFormat>uri</DataFormat>
