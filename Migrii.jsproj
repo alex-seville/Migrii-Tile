@@ -74,7 +74,6 @@
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />
     <Content Include="images\storelogo.png" />
-
     <Content Include="js\Appbar.js" />
     <Content Include="images\tile.png" />
     <Content Include="images\widelogo.png" />
@@ -82,12 +81,9 @@
     <Content Include="js\data.js" />
     <Content Include="js\default.js" />
     <Content Include="js\navigator.js" />
-    <Content Include="pages\capture\capture.css" />
-    <Content Include="pages\capture\capture.html" />
-    <Content Include="pages\capture\capture.js" />
-    <Content Include="pages\Create\pagecontrol.css" />
-    <Content Include="pages\Create\pagecontrol.html" />
-    <Content Include="pages\Create\pagecontrol.js" />
+    <Content Include="pages\create\create.css" />
+    <Content Include="pages\create\create.html" />
+    <Content Include="pages\create\create.js" />
     <Content Include="pages\itemDetail\itemDetail.css" />
     <Content Include="pages\itemDetail\itemDetail.html" />
     <Content Include="pages\itemDetail\itemDetail.js" />

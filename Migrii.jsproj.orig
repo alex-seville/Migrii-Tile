@@ -74,18 +74,25 @@
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />
     <Content Include="images\storelogo.png" />
-<<<<<<< HEAD
     <Content Include="js\Appbar.js" />
-=======
     <Content Include="images\tile.png" />
+    <Content Include="images\widelogo.png" />
     <Content Include="js\backgroundTask.js" />
->>>>>>> added real fake data, tile background task
     <Content Include="js\data.js" />
     <Content Include="js\default.js" />
     <Content Include="js\navigator.js" />
+<<<<<<< HEAD
+    <Content Include="pages\capture\capture.css" />
+    <Content Include="pages\capture\capture.html" />
+    <Content Include="pages\capture\capture.js" />
     <Content Include="pages\Create\pagecontrol.css" />
     <Content Include="pages\Create\pagecontrol.html" />
     <Content Include="pages\Create\pagecontrol.js" />
+=======
+    <Content Include="pages\create\create.css" />
+    <Content Include="pages\create\create.html" />
+    <Content Include="pages\create\create.js" />
+>>>>>>> added create form
     <Content Include="pages\itemDetail\itemDetail.css" />
     <Content Include="pages\itemDetail\itemDetail.html" />
     <Content Include="pages\itemDetail\itemDetail.js" />
@@ -99,6 +106,9 @@
     <Content Include="pages\search\searchResults.css" />
     <Content Include="pages\search\searchResults.html" />
     <Content Include="pages\search\searchResults.js" />
+    <Content Include="pages\share\shareTarget.css" />
+    <Content Include="pages\share\shareTarget.html" />
+    <Content Include="pages\share\shareTarget.js" />
     <None Include="Migrii_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

@@ -2,32 +2,34 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>pagecontrol</title>
+    <title>Create</title>
 
     <!-- WinJS references -->
     <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
     <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
     <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
 
-    <link href="pagecontrol.css" rel="stylesheet" />
-    <script src="pagecontrol.js"></script>
+    <link href="create.css" rel="stylesheet" />
+    <script src="create.js"></script>
 </head>
 <body>
-    <div class="pagecontrol fragment">
+    <div class="create fragment">
         <header aria-label="Header content" role="banner">
             <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
             <h1 class="titlearea win-type-ellipsis">
-                <span class="pagetitle">Add an idea</span>
+                <span class="pagetitle">Add an idea to Migrii</span>
             </h1>
         </header>
         <section aria-label="Main content" role="main">
             <div class="addform">
-            <h2>What's your idea?</h2>
-            <br /><br />
-            <textarea style="width:200px;height:100px;"></textarea>
-            <br />
+                <h2>What's your idea?</h2>
+                <h3>You got an idea ? Great ! Migrii has people ready to join you and transform your idea into a concrete project.</h3>
+                <p><input type="text" value="" placeholder="Enter the title of your idea" /></p>
+
+                <textarea style="height:250px;" placeholder="What do you want to do ?"></textarea>
+                <br />
             
-            <input id="createpage" type="submit" value="Create"  />
+                <input id="createpage" type="submit" value="Submit your idea"  />
                 </div>
         </section>
     </div>

@@ -1,0 +1,42 @@
+﻿.create section[role=main] {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    margin-bottom: 35px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 128px;
+    background:url('/images/migrii-m-illustration.png') no-repeat 80% 60%;
+
+}
+
+.create section[role=main] input, .create section[role=main] textarea {
+    padding:20px;
+    background:#FACAD8;
+    color:#9C7E7D;
+    width:400px;
+}
+    .create section[role=main] textarea {
+        overflow:auto;
+    }
+    .create section[role=main] input[type=submit] {
+        background:#ED0C6E;
+        color:#FFF;
+        width:400px;
+        padding:20px;
+    }
+/* This selector is used to prevent ui-dark/light.css from overwriting changes
+   to .win-surface. */
+
+@media screen and (-ms-view-state: snapped) {
+    .create section[role=main] {
+        -ms-grid-row: 2;
+        -ms-grid-row-span: 1;
+    }
+
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .create .win-horizontal.win-viewport .win-surface {
+        margin-left: 100px;
+    }
+}

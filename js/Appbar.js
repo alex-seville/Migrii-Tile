@@ -22,7 +22,7 @@
     function doClickAdd() {
         WinJS.log && WinJS.log("Add button pressed");
         if (!document.getElementById("createpage")) {
-            WinJS.Navigation.navigate("/pages/Create/pagecontrol.html");
+            WinJS.Navigation.navigate("/pages/create/create.html");
         }
     }
 
