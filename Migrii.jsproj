@@ -81,6 +81,9 @@
     <Content Include="js\data.js" />
     <Content Include="js\default.js" />
     <Content Include="js\navigator.js" />
+    <Content Include="pages\capture\capture.css" />
+    <Content Include="pages\capture\capture.html" />
+    <Content Include="pages\capture\capture.js" />
     <Content Include="pages\create\create.css" />
     <Content Include="pages\create\create.html" />
     <Content Include="pages\create\create.js" />

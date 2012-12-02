@@ -2,7 +2,8 @@
 // http://go.microsoft.com/fwlink/?LinkId=232511
 (function () {
     "use strict";
-
+    
+    var pic = null;
     WinJS.UI.Pages.define("/pages/capture/capture.html", {
         // This function is called whenever a user navigates to this page. It
         // populates the page elements with the app's data.
@@ -21,7 +22,7 @@
                     backgroundImage: pic
                 });
                 */
-                var messageDialog = new Windows.UI.Popups.MessageDialog("Your idea has been captured", "Capture idea");
+                var messageDialog = new Windows.UI.Popups.MessageDialog("You successfully added an image to your idea");
 
                 messageDialog.showAsync();
 
@@ -41,13 +42,14 @@
             // TODO: Respond to changes in viewState.
         }
     });
-    var pic = null;
     function takepicture() {
         var captureUI = new Windows.Media.Capture.CameraCaptureUI();
         captureUI.captureFileAsync(Windows.Media.Capture.CameraCaptureUIMode.photo).then(function (capturedItem) {
             if (capturedItem) {
                 document.getElementById("message").innerHTML = "User captured a photo.";
-                pic = capturedItem.path;
+
+
+                document.getElementById('pictureUploaded').src = URL.createObjectURL(capturedItem);
             }
             else {
                 document.getElementById("message").innerHTML = "User didn't capture a photo.";
