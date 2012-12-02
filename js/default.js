@@ -29,14 +29,17 @@
             if (app.sessionState.history) {
                 nav.history = app.sessionState.history;
             }
-            args.setPromise(WinJS.UI.processAll().then(function () {
-                if (nav.location) {
-                    nav.history.current.initialPlaceholder = true;
-                    return nav.navigate(nav.location, nav.state);
-                } else {
-                    return nav.navigate(Application.navigator.home);
-                }
-            }));
+            setTimeout(function () {
+
+                args.setPromise(WinJS.UI.processAll().then(function () {
+                    if (nav.location) {
+                        nav.history.current.initialPlaceholder = true;
+                        return nav.navigate(nav.location, nav.state);
+                    } else {
+                        return nav.navigate(Application.navigator.home);
+                    }
+                }));
+            }, 700);
         }
     });
 

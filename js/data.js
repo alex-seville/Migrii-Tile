@@ -99,15 +99,15 @@
         // group.
         var sampleItems = [
 
-            { group: sampleGroups[0], title: "Create an HTML4 meetup", subtitle: "Item Subtitle: 1", description: itemDescription, content: itemContent, backgroundImage: lightGray },
-            { group: sampleGroups[0], title: "Jazz song idea", subtitle: "Item Subtitle: 2", description: itemDescription, content: itemContent, backgroundImage: darkGray },
-            { group: sampleGroups[0], title: "Windows 8 App!", subtitle: "Item Subtitle: 3", description: itemDescription, content: itemContent, backgroundImage: mediumGray },
-            { group: sampleGroups[1], title: "Comic Book on anthropmorphic bananas", subtitle: "Item Subtitle: 4", description: itemDescription, content: itemContent, backgroundImage: darkGray },
-            { group: sampleGroups[1], title: "Startup to un-instagram photos", subtitle: "Item Subtitle: 5", description: itemDescription, content: itemContent, backgroundImage: mediumGray },
+            { group: sampleGroups[0], title: "Create an HTML4 meetup", subtitle: "web", description: itemDescription, content: itemContent, backgroundImage: "/images/ideas/html4.jpg" },
+            { group: sampleGroups[0], title: "Jazz song idea", subtitle: "music", description: itemDescription, content: itemContent, backgroundImage: "/images/ideas/jazz.jpg" },
+            { group: sampleGroups[0], title: "Windows 8 App!", subtitle: "web", description: itemDescription, content: itemContent, backgroundImage: "/images/ideas/windows8.jpg" },
+            { group: sampleGroups[1], title: "Comic Book on anthropmorphic bananas", subtitle: "culture", description: itemDescription, content: itemContent, backgroundImage: "/images/ideas/comics.jpeg" },
+            { group: sampleGroups[1], title: "Startup to un-instagram photos", subtitle: "photo", description: itemDescription, content: itemContent, backgroundImage: "/images/ideas/uninstagram.jpg" },
 
-            { group: sampleGroups[2], title: "All girl punk band", subtitle: "Item Subtitle: 1", description: itemDescription, content: itemContent, backgroundImage: darkGray },
-            { group: sampleGroups[2], title: "Magazine cover idea", subtitle: "Item Subtitle: 2", description: itemDescription, content: itemContent, backgroundImage: mediumGray },
-            { group: sampleGroups[2], title: "Taco-wrapped-pizza Franchise", subtitle: "Item Subtitle: 3", description: itemDescription, content: itemContent, backgroundImage: lightGray },
+            { group: sampleGroups[2], title: "All girl punk band", subtitle: "music", description: itemDescription, content: itemContent, backgroundImage: "/images/ideas/punkgirls.jpg" },
+            { group: sampleGroups[2], title: "Magazine cover idea", subtitle: "news", description: itemDescription, content: itemContent, backgroundImage: "/images/ideas/cover.jpg" },
+            { group: sampleGroups[2], title: "Taco-wrapped-pizza Franchise", subtitle: "food", description: itemDescription, content: itemContent, backgroundImage: "/images/ideas/tacos.jpg" },
 
            
 

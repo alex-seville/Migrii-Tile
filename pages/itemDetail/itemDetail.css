@@ -8,7 +8,13 @@
     width: 100%;
     z-index: 0;
 }
-
+.itemdetailpage .rate {
+    background:#ED0C6E;
+    text-shadow:1px 1px 1px solid #F60;
+}
+    .itemdetailpage .rate * {
+        padding:10px;
+    }
     .itemdetailpage .content article {
         /* Define a multi-column, horizontally scrolling article by default. */
         column-fill: auto;
@@ -51,7 +57,7 @@
 
         .itemdetailpage .content article .item-image {
             height: 240px;
-            width: 460px;
+            width: 100%;
         }
 
         .itemdetailpage .content article .item-content p {

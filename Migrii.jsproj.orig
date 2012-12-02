@@ -54,22 +54,38 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="css\default.css" />
-<<<<<<< HEAD
     <Content Include="css\Questrial-Regular.ttf" />
-=======
->>>>>>> Added share to item detail
+    <Content Include="images\ideas\comics.jpeg" />
+    <Content Include="images\ideas\cover.jpg" />
+    <Content Include="images\ideas\html4.jpg" />
+    <Content Include="images\ideas\jazz.jpg" />
+    <Content Include="images\ideas\punkgirls.jpg" />
+    <Content Include="images\ideas\tacos.jpg" />
+    <Content Include="images\ideas\uninstagram.jpg" />
+    <Content Include="images\ideas\windows8.jpg" />
     <Content Include="images\logo.png" />
     <Content Include="images\m.jpg" />
     <Content Include="images\makewebnotwar.jpg" />
     <Content Include="images\migrii-logo-high-res.gif" />
     <Content Include="images\migrii-m-illustration.png" />
+    <Content Include="images\montreal.jpg" />
     <Content Include="images\profile.jpg" />
+    <Content Include="images\smalllogo copie.png" />
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />
     <Content Include="images\storelogo.png" />
+<<<<<<< HEAD
+    <Content Include="js\Appbar.js" />
+=======
+    <Content Include="images\tile.png" />
+    <Content Include="js\backgroundTask.js" />
+>>>>>>> added real fake data, tile background task
     <Content Include="js\data.js" />
     <Content Include="js\default.js" />
     <Content Include="js\navigator.js" />
+    <Content Include="pages\Create\pagecontrol.css" />
+    <Content Include="pages\Create\pagecontrol.html" />
+    <Content Include="pages\Create\pagecontrol.js" />
     <Content Include="pages\itemDetail\itemDetail.css" />
     <Content Include="pages\itemDetail\itemDetail.html" />
     <Content Include="pages\itemDetail\itemDetail.js" />
@@ -80,9 +96,9 @@
     <Content Include="pages\groupedItems\groupedItems.html" />
     <Content Include="pages\groupedItems\groupedItems.js" />
     <Content Include="default.html" />
-    <Content Include="share\share.css" />
-    <Content Include="share\share.html" />
-    <Content Include="share\share.js" />
+    <Content Include="pages\search\searchResults.css" />
+    <Content Include="pages\search\searchResults.html" />
+    <Content Include="pages\search\searchResults.js" />
     <None Include="Migrii_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

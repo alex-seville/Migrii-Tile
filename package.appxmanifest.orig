@@ -20,6 +20,8 @@
         <DefaultTile ShowName="allLogos" />
         <SplashScreen Image="images\splashscreen.png" />
       </VisualElements>
+<<<<<<< HEAD
+=======
       <Extensions>
         <Extension Category="windows.shareTarget" StartPage="share.html">
           <ShareTarget>
@@ -35,6 +37,7 @@
           </BackgroundTasks>
         </Extension>
       </Extensions>
+>>>>>>> added real fake data, tile background task
     </Application>
   </Applications>
   <Capabilities>
